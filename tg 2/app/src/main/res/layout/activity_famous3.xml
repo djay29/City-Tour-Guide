@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".famous3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mak" />
+
+                    <TextView
+                        android:id="@+id/info_text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="Makarpura Palace was built in 1870 to serve as the summer palace for the royal family of the Gaekwads. Designed with an Italian touch of architecture, the ornate palace remained unused as the royal family favored the cooler climes of the Nilgiris in Tamil Nadu over Vadodara to spend most of their summers. Today, the palace serves as a training school for the Indian Air Force, called No. 17 Tetra School. Visit this striking three-storied palace to witness its architectural brilliance and the lavish garden decorated with ivory fountains."
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/eme" />
+
+                    <TextView
+                        android:id="@+id/info_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="Also known as the Dakshinamurty Temple, the EME Temple is a Shiva shrine managed by the Indian Army. The temple boasts of remarkable contemporary architecture featuring aspects of the major religions of India. Covered with aluminium sheets, the geodesic structure of the temple presents a striking sight. Sculpture art dating back to the 7th to 15thcenturies define the beauty of the garden surrounding this temple. A visit to the temple will allow you to appreciate its unique concept."
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

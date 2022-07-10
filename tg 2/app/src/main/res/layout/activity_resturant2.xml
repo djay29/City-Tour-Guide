@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resturant2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/lev5" />
+
+                    <TextView
+                        android:id="@+id/info_text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="LEVEL 5
+                                                                                        Terrace Restro and Cafe, Royal Trade Centre, 515, Hazira - Adajan Rd, Jalaram Society, Adajan Gam, Adajan, Surat, Gujarat 395009" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dil" />
+
+                    <TextView
+                        android:id="@+id/info_text9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="Dil Se Re Restaurant,
+                                                                                                    Imperial Mall, 2nd, Hazira - Adajan Rd, Above Star Bazar, Adajan Gam, Surat, Gujarat 395009"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

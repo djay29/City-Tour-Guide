@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hrooms2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/mat" />
+
+
+                    <TextView
+                        android:id="@+id/info_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:text="Located along Tapti River, Surat Marriott Hotel features an outdoor pool, spa and gym. It is just 2 km from shopping in Parle Point, Ghod Dod Road and Piplo. Free parking is provided. Free WiFi is available.
+Soundproofed rooms are fitted with a personal safe, tea/coffee-making facilities and minibar. A hairdryer and radio are provided.
+Surat Marriott Hotel is 7 km from Textile and Diamond Market and 10 km from Surat Airport. Surat Railway Station is 12 km away."
+                        android:fontFamily="@font/amaranth_italic"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/matr" />
+
+                    <TextView
+                        android:id="@+id/info_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="Courtyard by Marriott Surat in Surat features a terrace. Featuring a restaurant, hotel has air-conditioned rooms each with a private bathroom.
+
+The units at the hotel are equipped with a seating area and a flat-screen TV with satellite channels. Courtyard by Marriott Surat offers certain rooms that include a balcony, and each room has a kettle. The rooms will provide guests with an oven. All bathrooms feature shower cubicles equipped with exotic rain showers and luxurious fittings. Extras include bathrobes, slippers and free toiletries."/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

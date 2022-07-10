@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ahmedabad1855" />
+
+                    <TextView
+                        android:id="@+id/info_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ahmedabad is the largest city in the state of Gujarat. It is located in western India on the banks of the River Sabarmati. The city served as political as well as economical capital of the region since its establishment. The earliest settlement can be recorded around the 12th century under Chaulukya dynasty rule. The present city was founded on 26 February 1411 and announced as the capital on 4 March 1411 by Ahmed Shah I of Gujarat Sultanate as a new capital. Under the rule of sultanate (1411–1511) the city prospered followed by decline (1511–1572) when the capital was transferred to Champaner. For next 135 years (1572–1707), the city renewed greatness under the early rulers of Mughal Empire. The city suffered due to political instability (1707–1817) under late Mughal rulers followed by joint rule between Maratha and Mughal"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".famous">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_margin="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sab" />
+
+                    <TextView
+                        android:id="@+id/info_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="The very first name that pops into the mind at the mention of Ahmedabad is that of Mahatma Gandhi and Sabarmati Ashram. Once home to Bapu and being the centre of operations for the Indian freedom struggle, it is located on the banks of river Sabarmati. This place gives visitors an insight into the life and struggles of Mahatma Gandhi.You can see many of his personal artefacts, including his glasses, slippers, and books. There is an art gallery and a library with almost thirty-five thousand books in English, Hindi, and Gujarati here. The literature, paintings and the artefacts here are a treasure trove if one wants to learn more about the life, family, and revolutionary ways of Gandhi. Sabarmati Ashram holds the honour of being the starting point of the iconic Dandi March,which was a key point in the Indian freedom struggle."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/info_text5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Location: Ashram Road, Ahmedabad
+
+                                       Special mention: Magan Niwas, Upasana Mandir, Udyog Mandir, Hriday Kunj, and Nandini
+
+                                                                                    Opening hours: 8.30 AM to 6.30 PM
+
+                                        Entry Fees: Free"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/kan" />
+
+                    <TextView
+                        android:id="@+id/info_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16dp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:text="The largest waterbody in the city, Kankaria Lake has enticed the people of Ahmedabad and tourists flocking the city for many years now. Built in the fifteenth century by Sultans Muhammad Shah and Ahmed Shah II, it even had an in-built water purification system since it was the bathing place of most rulers of that era. An entertainment zone has now been developed on the lakeside, which has a zoo, kids’ city, toy trains, a water park with loads of rides, and food stalls. You can easily have a day picnic at this place, ending the day with a stroll along the lakefront. Enjoy your meals at Nagina Wadi, which is a garden themed food stall area lip-smacking authentic Gujarati food."
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:id="@+id/info_text8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Location: Kankaria, Ahmedabad
+                                                 Special mention: Children’s park, musical fountain, Jogging track, mini-golf, balloon rides, archery, Segway
+                    Opening hours: 9 AM to 10 (visitors); 4 AM to 8 AM (joggers)
+Entry Fee: ₹ 25 for Adults, ₹ 10 for children and free entry for joggers"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:fontFamily="@font/amaranth_italic"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

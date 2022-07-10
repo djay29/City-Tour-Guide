@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="24dp">
+
+                    <ImageView
+                        android:id="@+id/image_main1"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:layout_gravity="top"
+                        android:layout_margin="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vad" />
+
+                    <TextView
+                        android:id="@+id/info_text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textSize="16sp"
+                        android:layout_margin="7dp"
+                        android:text="During 9th Century, Present  Akota was known as Ankottaka,  which was a little town and was famous for Jainism located on banks of River Vishwamitri.  In 5th and 6th Century A.D.,  Some of  bronze Images are still found in Baroda Museum. Architecture findings also date Baroda back to this time.
+
+The early trade settlers made an entry in 812 A.D.. The imperial Baroda province was mainly ruled by Hindu Kings till the year 1297. Chalukya Dynasty took over the Gupta Empire by fierce battle after intense rivalry. After then, it was taken over by Solanki Rajputs. Tehn, Muslim rule was spread across India and reins of Power were then snatched by Sultans of Delhi. The city was ruled for a long time by these Sultans, until they were easily overthrown by the Mughal emperors. During this time, Maratha Gaekwads made an entry into this region  and began  their reputable reign. They made Vadodara as their capital."
+                        android:fontFamily="@font/amaranth_italic"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

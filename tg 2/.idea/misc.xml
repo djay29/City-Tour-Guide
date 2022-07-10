@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/drawable/buttondesign.xml" value="0.1775" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/drawable/edittextdesign.xml" value="0.1775" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/font/amaranth_italic.xml" value="0.3015625" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/font/amarnath.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_catagories.xml" value="0.176" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_catagories2.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_catagories3.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_catagories4.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_city_finder.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_famous.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_famous2.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_famous3.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_famous4.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_history.xml" value="0.2" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_history2.xml" value="0.1" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_history3.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_history4.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_hrooms.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_hrooms2.xml" value="0.176" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_hrooms3.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_hrooms4.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_main2.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_resturant.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_resturant2.xml" value="0.2" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_resturant3.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_resturant4.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_weather.xml" value="0.264" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_weather2.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_weather3.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/activity_weather4.xml" value="0.1" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/layout/weather.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg 2/app/src/main/res/xml/network_security_config.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_catagories.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_famous.xml" value="0.25" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_history.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_hrooms.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/tg/app/src/main/res/layout/activity_resturant.xml" value="0.1334853090172239" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14628623188405798" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
